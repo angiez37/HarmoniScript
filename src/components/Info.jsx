@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from "../assets/Harmonilogo.png";
 import { FaGithub} from "react-icons/fa";
 import {Link} from "react-scroll";

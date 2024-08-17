@@ -1,4 +1,3 @@
-import React from 'react'
 import thanku from "../assets/thanku2.png";
 import violin from "../assets/violin.jpg";
 import piano from "../assets/piano.jpg";

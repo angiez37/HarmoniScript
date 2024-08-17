@@ -1,4 +1,3 @@
-import React from 'react'
 const Explore = () => {
   return (
     <div name='explore' className="flex justify-center items-center m-5">
