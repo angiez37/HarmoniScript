@@ -6,9 +6,10 @@ import guitar from "../assets/guitar.jpg";
 import trumpet from "../assets/trumpet.jpg";
 import cello from "../assets/cello.jpg";
 
+
 const Header = () => {
   return (
-    <div className="border-b border-white p-5 pt-20 m-10">
+    <div className="border-b border-white p-5 pt-20 m-10 my-5">
         <div className="flex flex-wrap justify-between items-center gap-5">
             <div className="flex flex-col justify-center items-center gap-12 p-10 lg:w-1/2">
                 <div className="font-serif text-5xl leading-20 p-9">From Sounds to Score in Seconds</div>
@@ -53,5 +54,4 @@ const Header = () => {
     </div>
   )
 }
-
 export default Header
