@@ -1,3 +1,4 @@
+import React from 'react'
 import thanku from "../assets/thanku2.png";
 import violin from "../assets/violin.jpg";
 import piano from "../assets/piano.jpg";
@@ -5,6 +6,8 @@ import clarinet from "../assets/clarinet.jpg";
 import guitar from "../assets/guitar.jpg";
 import trumpet from "../assets/trumpet.jpg";
 import cello from "../assets/cello.jpg";
+import {Link} from "react-scroll";
+
 
 
 const Header = () => {
@@ -14,7 +17,9 @@ const Header = () => {
             <div className="flex flex-col justify-center items-center gap-12 p-10 lg:w-1/2">
                 <div className="font-serif text-5xl leading-20 p-9">From Sounds to Score in Seconds</div>
                 <div>
-                    <button className="bg-slate-300 hover:bg-slate-400 text-black text-3xl font-serif py-2 px-4 rounded-lg">Explore More</button>
+                    <button className="bg-slate-300 hover:bg-slate-400 text-black text-3xl font-serif py-2 px-4 rounded-lg">
+                        <Link to="explore" smooth={true} duration={500}>Explore More</Link>
+                    </button>
                 </div>
             </div>
             <div className="flex justify-center items-center gap-2 p-10 ">
