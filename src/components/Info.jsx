@@ -1,5 +1,5 @@
 import Logo from "../assets/Harmonilogo.png";
-import { FaGithub} from "react-icons/fa";
+import {FaGithub} from "react-icons/fa";
 import {Link} from "react-scroll";
 
 const Info = () => {
@@ -10,9 +10,9 @@ const Info = () => {
         <div className="font-serif text-xl">HarmoniScript</div>
       </div>
       <div className="flex flex-wrap justify-center items-center w-60 h-14 rounded-full text-md border border-opacity-10 backdrop-blur gap-6 mr-12 hover:cursor-pointer">
-        <div className="font-serif text-xl text-secondary w-25 h-9 hover:text-blue-300">
+        <a href="upload" className="font-serif text-xl text-secondary w-25 h-9 hover:text-blue-300">
             <Link to="upload" smooth={true} duration={500}>Upload</Link>
-        </div>
+        </a>
         <div className="font-serif text-xl rounded-3xl w-25 h-9 hover:text-slate-300">
             <Link to="explore" smooth={true} duration={500}>About Us</Link>
         </div>

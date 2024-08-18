@@ -6,6 +6,7 @@ import Info from './components/Info'
 import Footer from './components/Footer'
 
 const App = () => {
+
   return (
     <div className= "overflow-x-hidden antialiased">
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(175,238,238,0.3),rgba(255,255,255,0))]"></div>
