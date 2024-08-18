@@ -6,10 +6,8 @@ const app = express();
 // Set up multer for file upload
 const upload = multer({dest:'uploads/'});
 
-//Melody Scanner API 
-const MELODY_SCANNER_API_URL = 'https://api.melodyscanner.com/v1/convert/audio-to-sheet';
 
-app.use(cors());
+app.use(cors()); //allow CORS since frontend and backend are on different origins
 
 app.post('/upload', upload.single("audio"), (req, res) => {
 
@@ -34,7 +32,6 @@ app.post('/upload', upload.single("audio"), (req, res) => {
 
 
 });
-
 
 app.listen(5000, () => {
 

@@ -5,6 +5,7 @@ import Upload from './components/Upload'
 import Info from './components/Info'
 import Footer from './components/Footer'
 
+//All web app componentsS
 const App = () => {
 
   return (

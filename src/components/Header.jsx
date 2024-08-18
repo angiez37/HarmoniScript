@@ -8,7 +8,7 @@ import cello from "../assets/cello.jpg";
 import {Link} from "react-scroll";
 
 
-
+{/*Header section - Title and description*/}
 const Header = () => {
   return (
     <div className="border-b border-white p-5 pt-20 m-10 my-5">

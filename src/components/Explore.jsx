@@ -1,3 +1,4 @@
+{/*Explore more section - learn more about HarmoniScript*/}
 const Explore = () => {
   return (
     <div name='explore' id="explore" className="flex justify-center items-center m-5">

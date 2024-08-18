@@ -2,6 +2,7 @@ import Logo from "../assets/Harmonilogo.png";
 import {FaGithub} from "react-icons/fa";
 import {Link} from "react-scroll";
 
+{/*Navbar section - Project name, github and quicktabs*/}
 const Info = () => {
   return (
     <nav className="bg-slate-400 mb-8 flex items-center justify-between py-4 px-9 fixed top-0 w-full shadow-2xl">

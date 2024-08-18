@@ -2,6 +2,7 @@ import Logo from "../assets/Harmonilogo.png";
 import { FaGithub} from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 
+{/*Footer section - Project name and contact information*/}
 const Footer = () => {
   return (
     <div className="bg-slate-400 mb-8 flex items-center justify-between py-4 px-9 bottom-0 w-full shadow-2xl">

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-
+{/*Upload section - select song, select instrument and upload button*/}
 const Upload = () => {
   const [song, setSong] = useState(null)
   const [instrument, setInstrument] = useState("default")
@@ -16,10 +16,8 @@ const Upload = () => {
   };
 
   const handleUpload = async () => {
-    console.log("Selected File:", song);
-    console.log("Selected Instrument:", instrument);
 
-    if(!song || instrument ==="default"){
+    if(!song || instrument ==="default"){ // Check if song and instrument are selected
       alert("Please select a song and an instrument!")
       return;
     }
@@ -28,12 +26,12 @@ const Upload = () => {
     formData.append('audio', song);
 
     try {
-      const response = await fetch('http://localhost:5000/upload', {
+      const response = await fetch('http://localhost:5000/upload', { //fetch the song from the client
         method: 'POST',
         body: formData,
       });
 
-      const data = await response.json();
+      const data = await response.json(); //server response
       setSheetMusic(data); // Set the sheet music data
       console.log('Sheet music data:', data);
     } catch (error) {
