@@ -24,7 +24,7 @@ app.post('/upload', upload.single("audio"), (req, res) => {
     const SheetMusicData = {
         title: "Twinkle Twinkle Little Star",
         format: "PNG",
-        downloadLink: "../src/assets/twinkletwinklelittlestarsheet.png"
+        downloadLink: "/public/twinkletwinklelittlestarsheet.png"
     };
 
     // Return the simulated response
